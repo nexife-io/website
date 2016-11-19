@@ -7,7 +7,7 @@ if (!Detector.webgl) {
   var years = ['2000'];
   var container = document.getElementById('container');
   var globe = new DAT.Globe(container, {
-    imgDir: '/assets/images/'
+    imgDir: 'assets/images/'
   });
 
   var i,
